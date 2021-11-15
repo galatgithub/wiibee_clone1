@@ -77,6 +77,6 @@ git push origin master 2>A || cat A
 logger "Shutdown WittyPi"
 # shutdown Raspberry Pi by pulling down GPIO-4
 gpio -g mode 4 out
-gpio -g write 4 0  # optional
+#gpio -g write 4 0  # optional
 logger "Shutdown Raspberry"
 sudo shutdown -h now # in case WittyPi did not shutdown
