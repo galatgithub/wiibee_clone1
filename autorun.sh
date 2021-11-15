@@ -62,13 +62,16 @@ python autorun.py $BTADDR >> wiibee.txt
 logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
+
+#cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
+
 git commit wiibee*.js -m"[data] $(date -Is)"
 git commit autorun.log -m"[data] $(date -Is)"
+#git commit schedule.log -m"[data] $(date -Is)"
 #git push origin master 2>A || cat A | mail -s "GIT a merdé sur Wiibee" guilhem.a@free.fr 
 git push origin master 2>A || cat A
 
 # obexftp -b A0:CB:FD:F7:80:F1 -v -p wiibee.js
-# cp ~/wittyPi/wittyPi.log /mnt/bee1/
 
 [ -z "$WIIBEE_SHUTDOWN" ] && exit 0
 logger "Shutdown WittyPi"
@@ -76,4 +79,4 @@ logger "Shutdown WittyPi"
 gpio -g mode 4 out
 gpio -g write 4 0  # optional
 logger "Shutdown Raspberry"
-shutdown -h now # in case WittyPi did not shutdown
+sudo shutdown -h now # in case WittyPi did not shutdown
