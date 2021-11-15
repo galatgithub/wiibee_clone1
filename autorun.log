@@ -5,3 +5,12 @@ cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
 cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
 ./autorun.sh: line 57:   918 Terminated              echo -ne "\xA0\x01\x01\xA2" > /dev/rfcomm0
 [2021-11-14 16:20:39,804][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : (112, 'Host is down')
+./autorun.sh: line 61:  1122 Bus error               python autorun.py $BTADDR >> wiibee.txt
+./autorun.sh: line 62: /usr/bin/logger: Input/output error
+./autorun.sh: line 63: /usr/bin/python: Input/output error
+./autorun.sh: line 64: /usr/bin/python: Input/output error
+./autorun.sh: line 68: /bin/date: Input/output error
+./autorun.sh: line 68: /usr/bin/git: Input/output error
+./autorun.sh: line 69: /bin/date: Input/output error
+./autorun.sh: line 69: /usr/bin/git: Input/output error
+./autorun.sh: line 72: /bin/cat: Input/output error
