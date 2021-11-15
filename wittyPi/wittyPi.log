@@ -1,1 +1,430 @@
-jkb;bgjfnb,
+[2021-11-15 11:28:56] Witty Pi daemon (v3.13) is started.
+[2021-11-15 11:28:56] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 11:28:57] Wiring Pi version: 2.44
+[2021-11-15 11:28:59] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 11:28:59] Witty Pi is not connected, skip I2C communications...
+[2021-11-15 11:28:59] Witty Pi is not connected, skip synchronizing time...
+[2021-11-15 11:29:08] Witty Pi is not connected, skip schedule script...
+[2021-11-15 11:29:08] Pending for incoming shutdown command...
+[2021-11-15 11:30:06] Witty Pi daemon (v3.13) is started.
+[2021-11-15 11:30:07] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 11:30:07] Wiring Pi version: 2.44
+[2021-11-15 11:30:09] Firmware ID: 0x22
+[2021-11-15 11:30:09] Current Vout=5.27, Iout=0.21
+[2021-11-15 11:30:09] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 11:30:10] System startup as scheduled.
+[2021-11-15 11:30:10] Synchronizing time between system and Witty Pi...
+[2021-11-15 11:30:10] Writing RTC time to system...
+[2021-11-15 12:45:03] Done :-)
+[2021-11-15 12:45:10] Pending for incoming shutdown command...
+[2021-11-15 12:45:10] File "schedule.wpi" not found, skip running schedule script.
+[2021-11-15 12:45:13] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 12:45:13] Applying network time to system...
+[2021-11-15 12:45:14] Done :-)
+[2021-11-15 12:45:14] Writing system time to RTC...
+[2021-11-15 12:45:14] Done :-)
+[2021-11-15 12:46:12] Copying "on_5m_every_20m.wpi" to "schedule.wpi"...
+[2021-11-15 12:46:12] Running the script...
+[2021-11-15 12:46:13] Schedule next shutdown at: 2021-11-15 13:05:00
+[2021-11-15 12:46:13] Schedule next startup at: 2021-11-15 13:20:00
+[2021-11-15 12:46:13] Done :-)
+[2021-11-15 13:04:59] Shutting down system as scheduled
+[2021-11-15 13:04:59] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 13:05:01] Witty Pi daemon (v3.13) is started.
+[2021-11-15 13:05:01] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 13:05:01] Wiring Pi version: 2.44
+[2021-11-15 13:05:04] Firmware ID: 0x22
+[2021-11-15 13:05:04] Current Vout=5.27, Iout=0.19
+[2021-11-15 13:05:04] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 13:05:04] System startup as scheduled.
+[2021-11-15 13:05:04] Synchronizing time between system and Witty Pi...
+[2021-11-15 13:05:05] Writing RTC time to system...
+[2021-11-15 13:29:49] Done :-)
+[2021-11-15 13:29:50] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 13:29:50] Applying network time to system...
+[2021-11-15 13:29:49] Done :-)
+[2021-11-15 13:29:49] Writing system time to RTC...
+[2021-11-15 13:29:49] Done :-)
+[2021-11-15 13:29:55] Pending for incoming shutdown command...
+hci0:	Type: Primary  Bus: UART
+	BD Address: B8:27:EB:43:DB:7E  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING 
+	RX bytes:752 acl:0 sco:0 events:47 errors:0
+	TX bytes:2733 acl:0 sco:0 commands:47 errors:0
+
+[2021-11-15 13:29:55] Schedule next shutdown at: 2021-11-15 13:45:00
+[2021-11-15 13:29:56] Schedule next startup at: 2021-11-15 14:00:00
+[master 7d4769c] [data] 2021-11-15T13:30:31+00:00
+ Committer: root <root@raspberrypi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 11 insertions(+)
+[master 4a3595e] [data] 2021-11-15T13:30:32+00:00
+ Committer: root <root@raspberrypi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+)
+[2021-11-15 13:30:35] Shutting down system because GPIO-4 pin is pulled down.
+[2021-11-15 13:30:35] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 13:30:37] Witty Pi daemon (v3.13) is started.
+[2021-11-15 13:30:37] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 13:30:37] Wiring Pi version: 2.44
+[2021-11-15 13:30:40] Firmware ID: 0x22
+[2021-11-15 13:30:40] Current Vout=5.27, Iout=0.21
+[2021-11-15 13:30:40] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 13:30:40] Synchronizing time between system and Witty Pi...
+[2021-11-15 13:30:40] Writing RTC time to system...
+[2021-11-15 13:34:17] Done :-)
+[2021-11-15 13:34:24] Pending for incoming shutdown command...
+[2021-11-15 13:34:25] Schedule next shutdown at: 2021-11-15 13:45:00
+[2021-11-15 13:34:25] Schedule next startup at: 2021-11-15 14:00:00
+[2021-11-15 13:34:27] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 13:34:28] Applying network time to system...
+[2021-11-15 13:34:29] Done :-)
+[2021-11-15 13:34:29] Writing system time to RTC...
+[2021-11-15 13:34:29] Done :-)
+[2021-11-15 13:44:59] Shutting down system as scheduled
+[2021-11-15 13:44:59] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 13:45:01] Witty Pi daemon (v3.13) is started.
+[2021-11-15 13:45:01] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 13:45:01] Wiring Pi version: 2.44
+[2021-11-15 13:45:04] Firmware ID: 0x22
+[2021-11-15 13:45:04] Current Vout=5.27, Iout=0.4
+[2021-11-15 13:45:04] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 13:45:05] Synchronizing time between system and Witty Pi...
+[2021-11-15 13:45:05] Writing RTC time to system...
+[2021-11-15 13:58:21] Done :-)
+[2021-11-15 13:58:22] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 13:58:23] Applying network time to system...
+[2021-11-15 13:58:23] Done :-)
+[2021-11-15 13:58:23] Writing system time to RTC...
+[2021-11-15 13:58:23] Done :-)
+[2021-11-15 13:58:28] Pending for incoming shutdown command...
+[2021-11-15 13:58:28] Schedule script is interrupted, revising the schedule...
+[2021-11-15 13:58:28] Schedule next shutdown at: 2021-11-15 13:59:00
+[2021-11-15 13:58:28] Schedule next startup at: 2021-11-15 14:00:00
+[2021-11-15 13:59:00] Shutting down system as scheduled
+[2021-11-15 13:59:00] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 13:59:03] Witty Pi daemon (v3.13) is started.
+[2021-11-15 13:59:03] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 13:59:03] Wiring Pi version: 2.44
+[2021-11-15 13:59:06] Firmware ID: 0x22
+[2021-11-15 13:59:06] Current Vout=5.27, Iout=0.21
+[2021-11-15 13:59:06] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 13:59:06] System startup as scheduled.
+[2021-11-15 13:59:06] Synchronizing time between system and Witty Pi...
+[2021-11-15 13:59:06] Writing RTC time to system...
+[2021-11-15 14:02:14] Done :-)
+[2021-11-15 14:02:15] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:02:15] Applying network time to system...
+[2021-11-15 14:02:16] Done :-)
+[2021-11-15 14:02:16] Writing system time to RTC...
+[2021-11-15 14:02:16] Done :-)
+[2021-11-15 14:02:22] Pending for incoming shutdown command...
+[2021-11-15 14:02:22] Schedule next shutdown at: 2021-11-15 14:05:00
+[2021-11-15 14:02:22] Schedule next startup at: 2021-11-15 14:20:00
+[2021-11-15 14:02:56] Seting shutdown time to "15 16:00"
+[2021-11-15 14:02:56] Done :-)
+[2021-11-15 14:09:32] Shutting down system because GPIO-4 pin is pulled down.
+[2021-11-15 14:09:32] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 14:09:34] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:09:34] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:09:34] Wiring Pi version: 2.44
+[2021-11-15 14:09:36] Firmware ID: 0x22
+[2021-11-15 14:09:37] Current Vout=5.27, Iout=0.21
+[2021-11-15 14:09:37] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:09:37] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:09:37] Writing RTC time to system...
+[2021-11-15 14:10:30] Done :-)
+[2021-11-15 14:10:37] Pending for incoming shutdown command...
+hci0:	Type: Primary  Bus: UART
+	BD Address: B8:27:EB:43:DB:7E  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING 
+	RX bytes:752 acl:0 sco:0 events:47 errors:0
+	TX bytes:2733 acl:0 sco:0 commands:47 errors:0
+
+[2021-11-15 14:10:38] Schedule next shutdown at: 2021-11-15 14:25:00
+[2021-11-15 14:10:38] Schedule next startup at: 2021-11-15 14:40:00
+[2021-11-15 14:10:41] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:10:41] Applying network time to system...
+[2021-11-15 14:10:41] Done :-)
+[2021-11-15 14:10:41] Writing system time to RTC...
+[2021-11-15 14:10:41] Done :-)
+[master 32af54a] [data] 2021-11-15T14:11:12+00:00
+ Committer: root <root@raspberrypi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 11 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	modified:   A
+	modified:   wiibee_battery.txt
+
+Untracked files:
+	wittyPi/afterStartup.sh
+
+no changes added to commit
+[2021-11-15 14:11:16] Shutting down system because GPIO-4 pin is pulled down.
+[2021-11-15 14:11:16] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 14:11:19] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:11:19] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:11:19] Wiring Pi version: 2.44
+[2021-11-15 14:11:21] Firmware ID: 0x22
+[2021-11-15 14:11:21] Current Vout=5.27, Iout=0.23
+[2021-11-15 14:11:21] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:11:22] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:11:22] Writing RTC time to system...
+[2021-11-15 14:20:54] Done :-)
+[2021-11-15 14:21:01] Pending for incoming shutdown command...
+[2021-11-15 14:21:02] Schedule next shutdown at: 2021-11-15 14:25:00
+[2021-11-15 14:21:02] Schedule next startup at: 2021-11-15 14:40:00
+[2021-11-15 14:21:04] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:21:05] Applying network time to system...
+[2021-11-15 14:21:05] Done :-)
+[2021-11-15 14:21:05] Writing system time to RTC...
+[2021-11-15 14:21:05] Done :-)
+[2021-11-15 14:22:28] Seting shutdown time to "31 10:00"
+[2021-11-15 14:22:29] I2C write 0x01 0x68 0x0D failed (result=0x15), retrying 1 ...
+[2021-11-15 14:22:29] Done :-)
+[2021-11-15 14:23:22] Copying "on_5m_every_20m.wpi" to "schedule.wpi"...
+[2021-11-15 14:23:22] Running the script...
+[2021-11-15 14:23:23] Schedule next shutdown at: 2021-11-15 14:25:00
+[2021-11-15 14:23:23] Schedule next startup at: 2021-11-15 14:40:00
+[2021-11-15 14:23:23] Done :-)
+[2021-11-15 14:23:39] Seting shutdown time to "01 10:00"
+[2021-11-15 14:23:39] Done :-)
+[2021-11-15 14:38:15] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:38:15] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:38:15] Wiring Pi version: 2.44
+[2021-11-15 14:38:18] Firmware ID: 0x22
+[2021-11-15 14:38:18] Current Vout=5.27, Iout=0.27
+[2021-11-15 14:38:18] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:38:18] System startup as scheduled.
+[2021-11-15 14:38:19] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:38:19] Writing RTC time to system...
+[2021-11-15 14:48:38] Done :-)
+[2021-11-15 14:48:45] Pending for incoming shutdown command...
+[2021-11-15 14:48:46] Schedule next shutdown at: 2021-11-15 15:05:00
+[2021-11-15 14:48:46] Schedule next startup at: 2021-11-15 15:20:00
+[2021-11-15 14:48:49] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:48:49] Applying network time to system...
+[2021-11-15 14:48:49] Done :-)
+[2021-11-15 14:48:49] Writing system time to RTC...
+[2021-11-15 14:48:49] Done :-)
+[2021-11-15 14:52:01] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:52:01] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:52:01] Wiring Pi version: 2.44
+[2021-11-15 14:52:04] Firmware ID: 0x22
+[2021-11-15 14:52:04] Current Vout=5.27, Iout=0.21
+[2021-11-15 14:52:04] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:52:05] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:52:05] Writing RTC time to system...
+[2021-11-15 14:52:17] Done :-)
+[2021-11-15 14:52:24] Pending for incoming shutdown command...
+[2021-11-15 14:52:24] Schedule next shutdown at: 2021-11-15 15:05:00
+[2021-11-15 14:52:25] Schedule next startup at: 2021-11-15 15:20:00
+[2021-11-15 14:52:27] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:52:28] Applying network time to system...
+[2021-11-15 14:52:28] Done :-)
+[2021-11-15 14:52:28] Writing system time to RTC...
+[2021-11-15 14:52:28] Done :-)
+[2021-11-15 14:52:56] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:52:56] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:52:56] Wiring Pi version: 2.44
+[2021-11-15 14:52:59] Firmware ID: 0x22
+[2021-11-15 14:52:59] Current Vout=5.27, Iout=0.21
+[2021-11-15 14:52:59] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:53:00] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:53:00] Writing RTC time to system...
+[2021-11-15 14:53:12] Done :-)
+[2021-11-15 14:53:19] Pending for incoming shutdown command...
+[2021-11-15 14:53:20] Schedule next shutdown at: 2021-11-15 15:05:00
+[2021-11-15 14:53:20] Schedule next startup at: 2021-11-15 15:20:00
+[2021-11-15 14:53:22] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 14:53:23] Applying network time to system...
+[2021-11-15 14:53:23] Done :-)
+[2021-11-15 14:53:23] Writing system time to RTC...
+[2021-11-15 14:53:23] Done :-)
+[2021-11-15 14:54:00] Seting shutdown time to "01 00:00"
+[2021-11-15 14:54:01] Done :-)
+[2021-11-15 14:55:15] Seting startup time to "?? ??:00:00"
+[2021-11-15 14:55:15] Done :-)
+[2021-11-15 14:55:40] Witty Pi daemon (v3.13) is started.
+[2021-11-15 14:55:40] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 14:55:40] Wiring Pi version: 2.44
+[2021-11-15 14:55:42] Firmware ID: 0x22
+[2021-11-15 14:55:43] Current Vout=5.27, Iout=0.19
+[2021-11-15 14:55:43] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 14:55:43] System startup as scheduled.
+[2021-11-15 14:55:43] Synchronizing time between system and Witty Pi...
+[2021-11-15 14:55:43] Writing RTC time to system...
+[2021-11-15 15:01:09] Done :-)
+[2021-11-15 15:01:09] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 15:01:15] Applying network time to system...
+[2021-11-15 15:01:16] Done :-)
+[2021-11-15 15:01:16] Writing system time to RTC...
+[2021-11-15 15:01:16] Done :-)
+[2021-11-15 15:01:16] Pending for incoming shutdown command...
+[2021-11-15 15:01:17] Schedule next shutdown at: 2021-11-15 15:05:00
+[2021-11-15 15:01:17] Schedule next startup at: 2021-11-15 15:20:00
+[2021-11-15 15:02:30] Seting shutdown time to "01 00:00"
+[2021-11-15 15:02:30] Done :-)
+[2021-11-15 15:04:28] Copying "on_5m_every_5m.wpi" to "schedule.wpi"...
+[2021-11-15 15:04:28] Running the script...
+[2021-11-15 15:04:29] Schedule next shutdown at: 2021-11-15 15:05:00
+[2021-11-15 15:04:29] Schedule next startup at: 2021-11-15 15:10:00
+[2021-11-15 15:04:29] Done :-)
+[2021-11-15 15:04:59] Shutting down system as scheduled
+cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
+cp: cannot stat '/root/wittypi/wittyPi.log': No such file or directory
+/home/pi/wittypi/beforeShutdown.sh: line 3: cd: /mnt/bee1/wiibee/: No such file or directory
+[2021-11-15 15:04:59] Halting all processes and then shutdown Raspberry Pi...
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+[2021-11-15 15:05:01] Witty Pi daemon (v3.13) is started.
+[2021-11-15 15:05:01] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 15:05:01] Wiring Pi version: 2.44
+[2021-11-15 15:05:04] Firmware ID: 0x22
+[2021-11-15 15:05:04] Current Vout=5.27, Iout=0.21
+[2021-11-15 15:05:04] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 15:05:04] System startup as scheduled.
+[2021-11-15 15:05:04] Synchronizing time between system and Witty Pi...
+[2021-11-15 15:05:05] Writing RTC time to system...
+[2021-11-15 15:10:16] Done :-)
+[2021-11-15 15:10:17] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 15:10:22] Applying network time to system...
+[2021-11-15 15:10:22] Done :-)
+[2021-11-15 15:10:22] Writing system time to RTC...
+[2021-11-15 15:10:22] Done :-)
+[2021-11-15 15:10:22] Pending for incoming shutdown command...
+hci0:	Type: Primary  Bus: UART
+	BD Address: B8:27:EB:43:DB:7E  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING 
+	RX bytes:752 acl:0 sco:0 events:47 errors:0
+	TX bytes:2733 acl:0 sco:0 commands:47 errors:0
+
+[2021-11-15 15:10:23] Schedule next shutdown at: 2021-11-15 15:15:00
+[2021-11-15 15:10:23] Schedule next startup at: 2021-11-15 15:20:00
+[master 3c6116c] [data] 2021-11-15T15:10:58+00:00
+ Committer: root <root@raspberrypi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 11 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	modified:   A
+	modified:   autorun.sh
+	modified:   schedule.log
+	modified:   wiibee_battery.txt
+
+Untracked files:
+	wittyPi.log
+	wittyPi/afterStartup.sh
+	wittyPi/beforeShutdown.sh
+
+no changes added to commit
+[2021-11-15 15:11:03] Witty Pi daemon (v3.13) is started.
+[2021-11-15 15:11:03] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 15:11:04] Wiring Pi version: 2.44
+[2021-11-15 15:11:06] Firmware ID: 0x22
+[2021-11-15 15:11:06] Current Vout=5.27, Iout=0.23
+[2021-11-15 15:11:06] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 15:11:07] Seems I was unexpectedly woken up by shutdown alarm, must go back to sleep...
+[2021-11-15 15:11:07] Halting all processes and then shutdown Raspberry Pi...
+[2021-11-15 15:11:08] Synchronizing time between system and Witty Pi...
+[2021-11-15 15:11:08] Writing RTC time to system...
+[2021-11-15 15:11:03] Witty Pi daemon (v3.13) is started.
+[2021-11-15 15:11:03] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 15:11:04] Wiring Pi version: 2.44
+[2021-11-15 15:11:06] Firmware ID: 0x22
+[2021-11-15 15:11:06] Current Vout=5.27, Iout=0.27
+[2021-11-15 15:11:06] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 15:11:07] Synchronizing time between system and Witty Pi...
+[2021-11-15 15:11:07] Writing RTC time to system...
+[2021-11-15 15:16:34] Done :-)
+[2021-11-15 15:16:41] Pending for incoming shutdown command...
+[2021-11-15 15:16:42] Schedule script is interrupted, revising the schedule...
+[2021-11-15 15:16:42] Schedule next shutdown at: 2021-11-15 15:19:00
+[2021-11-15 15:16:42] Schedule next startup at: 2021-11-15 15:20:00
+[2021-11-15 15:16:45] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 15:16:50] Applying network time to system...
+[2021-11-15 15:16:51] Done :-)
+[2021-11-15 15:16:51] Writing system time to RTC...
+[2021-11-15 15:16:51] Done :-)
+[2021-11-15 15:16:58] Seting shutdown time to "01 00:00"
+[2021-11-15 15:16:58] Done :-)
+[2021-11-15 15:18:51] Shutting down system because GPIO-4 pin is pulled down.
+cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
+cp: cannot stat '/root/wittypi/wittyPi.log': No such file or directory
+/home/pi/wittypi/beforeShutdown.sh: line 3: cd: /mnt/bee1/wiibee/: No such file or directory
+[2021-11-15 15:18:51] Halting all processes and then shutdown Raspberry Pi...
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+[2021-11-15 15:18:53] Witty Pi daemon (v3.13) is started.
+[2021-11-15 15:18:53] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-15 15:18:53] Wiring Pi version: 2.44
+[2021-11-15 15:18:55] Firmware ID: 0x22
+[2021-11-15 15:18:55] Current Vout=5.27, Iout=0.21
+[2021-11-15 15:18:55] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-15 15:18:56] System startup as scheduled.
+[2021-11-15 15:18:56] Synchronizing time between system and Witty Pi...
+[2021-11-15 15:18:56] Writing RTC time to system...
+[2021-11-15 16:02:36] Done :-)
+[2021-11-15 16:02:36] Internet detected, apply network time to system and Witty Pi...
+[2021-11-15 16:02:37] Applying network time to system...
+[2021-11-15 16:02:37] Done :-)
+[2021-11-15 16:02:37] Writing system time to RTC...
+[2021-11-15 16:02:37] Done :-)
+[2021-11-15 16:02:43] Pending for incoming shutdown command...
+[2021-11-15 16:02:44] Schedule next shutdown at: 2021-11-15 16:05:00
+[2021-11-15 16:02:44] Schedule next startup at: 2021-11-15 16:10:00
+[2021-11-15 16:03:04] Seting shutdown time to "01 00:00"
+[2021-11-15 16:03:04] Done :-)
