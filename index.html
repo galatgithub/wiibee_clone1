@@ -54,12 +54,10 @@ function gr(index) {
     return new Dygraph(elt, multi[index], {
         labels: ["Date", labels[index]],
         colors: [colors[index-1]],
-        valueRange: range,
+        <!-- valueRange: range, -->
         <!-- rajout barres de zoom -->
         showRangeSelector: true,
-         <!-- tentative de autoscale en commentant axes:... -->
-        
-        <!-- 
+         
         axes: {
             x: {
                 valueFormatter: function(value) {
@@ -73,7 +71,7 @@ function gr(index) {
                 },
             },
         },
-        //-->
+        
     });
 }
 var gs = [];
