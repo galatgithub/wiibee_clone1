@@ -16,3 +16,4 @@ cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
 ./autorun.sh: line 72: /bin/cat: Input/output error
 sudo: .: command not found
 sudo: .: command not found
+Can't create device: Address already in use
