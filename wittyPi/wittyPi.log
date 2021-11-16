@@ -1659,3 +1659,44 @@ fatal: Not a git repository (or any of the parent directories): .git
 [2021-11-16 15:43:57] Seting shutdown time to "01 00:00"
 [2021-11-16 15:43:57] Done :-)
 [2021-11-16 15:49:59] Startup alarm occurs in ON state, ignored
+[2021-11-16 15:56:24] Copying "on_5m_every_5m.wpi" to "schedule.wpi"...
+[2021-11-16 15:56:24] Running the script...
+[2021-11-16 15:56:25] Schedule next shutdown at: 2021-11-16 16:05:00
+[2021-11-16 15:56:25] Schedule next startup at: 2021-11-16 16:10:00
+[2021-11-16 15:56:26] Done :-)
+[2021-11-16 15:56:52] Shutting down system because GPIO-4 pin is pulled down.
+[2021-11-16 15:56:52] Halting all processes and then shutdown Raspberry Pi...
+[master 167a246] [log] 2021-11-16T15:56:53+00:00
+ Committer: root <root@raspberrypi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+[2021-11-16 15:56:55] Witty Pi daemon (v3.13) is started.
+[2021-11-16 15:56:55] Running on Raspberry Pi 3 Model B Rev 1.2
+[2021-11-16 15:56:55] Wiring Pi version: 2.44
+[2021-11-16 15:56:58] Firmware ID: 0x22
+[2021-11-16 15:56:58] Current Vout=5.27, Iout=0.21
+[2021-11-16 15:56:58] Send out the SYS_UP signal via GPIO-17 pin.
+[2021-11-16 15:56:58] System startup as scheduled.
+[2021-11-16 15:56:58] Synchronizing time between system and Witty Pi...
+[2021-11-16 15:56:59] Writing RTC time to system...
+[2021-11-16 16:10:16] Done :-)
+[2021-11-16 16:10:23] Pending for incoming shutdown command...
+[2021-11-16 16:10:24] Schedule next shutdown at: 2021-11-16 16:15:00
+[2021-11-16 16:10:24] Schedule next startup at: 2021-11-16 16:20:00
+[2021-11-16 16:10:27] Internet detected, apply network time to system and Witty Pi...
+[2021-11-16 16:10:28] Applying network time to system...
+[2021-11-16 16:10:28] Done :-)
+[2021-11-16 16:10:28] Writing system time to RTC...
+[2021-11-16 16:10:28] Done :-)
+[2021-11-16 16:14:59] Shutting down system as scheduled
