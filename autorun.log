@@ -17,3 +17,8 @@ cp: cannot stat '/root/wittypi/schedule.log': No such file or directory
 sudo: .: command not found
 sudo: .: command not found
 Can't create device: Address already in use
+sudo: source : commande introuvable
+sudo: source : commande introuvable
+sudo: . : commande introuvable
+sudo: . : commande introuvable
+Can't create device: Address already in use
