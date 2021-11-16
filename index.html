@@ -55,8 +55,11 @@ function gr(index) {
         labels: ["Date", labels[index]],
         colors: [colors[index-1]],
         valueRange: range,
+        <!-- rajout barres de zoom -->
         showRangeSelector: true,
-        axes: {
+         <!-- tentative de autoscale en commentant axes:... -->
+        
+        <!-- axes: {
             x: {
                 valueFormatter: function(value) {
                     // slice: "2016-09-22T10:03:55.625Z" -> "09-22T10:03:55"
@@ -68,7 +71,7 @@ function gr(index) {
                     return (value < 10 && value >= 0 ? '0' : '') + value.toFixed(2);
                 },
             },
-        },
+        },-->
     });
 }
 var gs = [];
