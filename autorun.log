@@ -69,3 +69,139 @@ sudo: . : commande introuvable
 sudo: . : commande introuvable
 sudo: .: command not found
 sudo: .: command not found
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to set wall message, ignoring: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to reboot system via logind: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+Failed to open /dev/initctl: Permission non accordée
+Failed to talk to init daemon.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't init device hci0: Operation not permitted (1)
+Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
+See system logs and 'systemctl status hciuart.service' for details.
+Can't create device: Address already in use
