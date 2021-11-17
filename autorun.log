@@ -205,3 +205,8 @@ Can't init device hci0: Operation not permitted (1)
 Failed to restart hciuart.service: The name org.freedesktop.PolicyKit1 was not provided by any .service files
 See system logs and 'systemctl status hciuart.service' for details.
 Can't create device: Address already in use
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
