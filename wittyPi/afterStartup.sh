@@ -24,14 +24,11 @@ cd $USB_DIR
 # git fetch origin && git merge origin/master
 
 
-#export WIIBEE_SHUTDOWN=1
-WIIBEE_SHUTDOWN=1
-env | grep '^WIIBEE_SHUTDOWN='
-#export PATH="${USB_DIR}:${PATH}"
-PATH="${USB_DIR}:${PATH}"
-env | grep '^PATH='
-echo $WIIBEE_SHUTDOWN
-echo $PATH
+export WIIBEE_SHUTDOWN=1
+#WIIBEE_SHUTDOWN=1
+#env | grep '^WIIBEE_SHUTDOWN='
+export PATH="${USB_DIR}:${PATH}"
+#PATH="${USB_DIR}:${PATH}"
+#env | grep '^PATH='
 
-
-. $SCRIPT 2>> autorun.log
+sudo ./$SCRIPT 2>> autorun.log
