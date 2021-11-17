@@ -73,6 +73,8 @@ git push origin master 2>A || cat A
 
 # obexftp -b A0:CB:FD:F7:80:F1 -v -p wiibee.js
 
+echo $WIIBEE_SHUTDOWN
+
 [ -z "$WIIBEE_SHUTDOWN" ] && exit 0
 logger "Shutdown WittyPi"
 # shutdown Raspberry Pi by pulling down GPIO-4
