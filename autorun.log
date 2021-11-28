@@ -180,3 +180,129 @@ Traceback (most recent call last):
     data = self.receivesocket.recv(25)
   File "<string>", line 5, in recv
 bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-remount-fs.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (sysinit.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-fsck-root.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-ask-password-console.path has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-random-seed.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-update-utmp.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-tmpfiles-setup-dev.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (local-fs-pre.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+[2021-11-28 17:45:46,261][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:45:48,562][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:45:50,864][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:45:53,161][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:45:55,458][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:45:57,730][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:46:00,027][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:46:02,318][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:46:04,613][wiiboard][ERROR] average called before any data could get in
+[2021-11-28 17:46:06,905][wiiboard][ERROR] average called before any data could get in
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "<string>", line 3, in recv
+_bluetooth.error: (103, 'Software caused connection abort')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/bee1/wiibee/wiiboard.py", line 121, in loop
+    data = self.receivesocket.recv(25)
+  File "<string>", line 5, in recv
+bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
