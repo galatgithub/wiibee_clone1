@@ -1,2 +1,6 @@
 [2022-01-22 15:10:30,646][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
 [2022-01-22 15:39:09,526][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-01-22 16:07:01,760][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-01-22 16:07:06,954][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-01-22 16:07:12,175][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-01-22 16:07:12,564][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 111] Connection refused
