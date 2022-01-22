@@ -2,7 +2,7 @@
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
 # BTADDR="00:22:4c:6e:12:6c"
-BTADDR="00:26:59:69:F2:25"
+BTADDR="00:26:59:69:F2:25 00:23:31:84:7E:4C 00:1E:35:FD:11:FC 00:1E:35:FF:B0:04"
 # Bluetooth relays addresses
 BTRLADDR="85:58:0E:16:73:EF"
 
@@ -41,24 +41,112 @@ logger "Simulate press red sync button on the Wii Board"
 
 # Switch on bluetooth relay
 
-#hcitool scan
-#echo -ne "scan on" | bluetoothctl
-#echo -ne "scan off" | bluetoothctl
-#echo -ne "agent on" | bluetoothctl
-#echo -ne "trust $BTRLADDR" | bluetoothctl
-#echo -ne "pair $BTRLADDR" | bluetoothctl
-sudo rfcomm bind 0 $BTRLADDR
-sudo chmod o+rw /dev/rfcomm0
-#ls -l /dev/rfcomm0
-echo -ne "\xA0\x01\x01\xA2" > /dev/rfcomm0 & pidbt=$!
-sleep 5
-kill $pidbt 2>/dev/null
-echo -ne "\xA0\x01\x00\xA1" > /dev/rfcomm0 & pidbt=$!
+######## SINGLE WIIBOARD ###############################################
+##hcitool scan
+##echo -ne "scan on" | bluetoothctl
+##echo -ne "scan off" | bluetoothctl
+##echo -ne "agent on" | bluetoothctl
+##echo -ne "trust $BTRLADDR" | bluetoothctl
+##echo -ne "pair $BTRLADDR" | bluetoothctl
+#sudo rfcomm bind 0 $BTRLADDR
+#sudo chmod o+rw /dev/rfcomm0
+##ls -l /dev/rfcomm0
+#echo -ne "\xA0\x01\x01\xA2" > /dev/rfcomm0 & pidbt=$!
+#sleep 5
+#kill $pidbt 2>/dev/null
+#echo -ne "\xA0\x01\x00\xA1" > /dev/rfcomm0 & pidbt=$!
+#sleep 5
+#kill $pidbt 2>/dev/null
+#########################################################################
+
+######## MULTIPLE WIIBOARDs #############################################
+
+# Detection des relais
+
+##results=$(hcitool scan --numrsp=100)
+#results=$(hcitool -i hci0 scan | grep "JDY-30") 
+##echo $results
+#sleep 20
+#sudo systemctl restart bluetooth
+
+nb_wiiboard=4
+nb_counted=0
+
+until [ $nb_counted -eq $nb_wiiboard ]; do
+    results=$(hcitool -i hci0 scan | grep "JDY-30") 
+    sleep 1
+    nb_counted=$(echo $results | grep -o "JDY-30" | wc -l)
+    echo $nb_counted
+    [ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
+done
+
+read -a strarr <<< "$results"
+
+j=1
+for i in $results; do
+	if [ $((j++%2)) -eq 0 ]
+	then
+	  NAME+=("$i")
+	else
+	  MAC+=("$i")
+	fi
+done
+
+BTRLADDR=""
+j=0
+for i in "${NAME[@]}"; do
+	if [[ "$i" == *JDY-30* ]]
+	then
+	  BTRLADDR="$BTRLADDR ${MAC[$j]}"
+	fi
+	((j++))
+done
+BTRLADDR=${BTRLADDR:1}
+
+echo "Relais detectes=${BTRLADDR[@]}"
+
+# Switch on/off des relais
+
+N=0
+LOGFILE=""
+for nbtrl in $BTRLADDR; do
+#    echo $nbtrl
+    FILE="/dev/rfcomm${N}"
+    [ -f "$FILE" ] && { echo $(ls $FILE); } 
+    [ ! -f "$FILE" ] && { echo "$FILE does not exist."; sudo rfcomm bind $N $nbtrl; sudo chmod o+rw /dev/rfcomm$N; }
+    LOGFILE="$LOGFILE /dev/rfcomm$N"
+    ((N++)) 
+done
+
+LOGFILE=${LOGFILE:1}
+#echo "LOGFILE = ${LOGFILE[@]}"
+
+open="\xA0\x01\x01\xA2"
+for i in $LOGFILE; do
+    echo "open $i"
+    echo -e $open > "$i" & pidbt=$! &
+done
 sleep 5
 kill $pidbt 2>/dev/null
 
+close="\xA0\x01\x00\xA1"
+for i in $LOGFILE; do
+    echo "close $i"
+    echo -e $close > "$i" & pidbt=$! &
+done
+sleep 5
+kill $pidbt 2>/dev/null
+
+((N--))
+for i in `seq 0 $N`; do
+    sudo rfcomm release $i
+done
+
+#########################################################################
+
 logger "Start listening to the mass measurements"
-python autorun.py $BTADDR >> wiibee.txt
+# replace python by python3
+python3 autorun.py $BTADDR >> wiibee.txt
 logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
@@ -71,14 +159,12 @@ git commit autorun.log -m"[data] $(date -Is)"
 #git push origin master 2>A || cat A | mail -s "GIT a merdé sur Wiibee" guilhem.a@free.fr 
 git push origin master 2>A || cat A
 
-# obexftp -b A0:CB:FD:F7:80:F1 -v -p wiibee.js
-
 echo $WIIBEE_SHUTDOWN
 
-[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
+#[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
 logger "Shutdown WittyPi"
 # shutdown Raspberry Pi by pulling down GPIO-4
-gpio -g mode 4 out
+#gpio -g mode 4 out
 #gpio -g write 4 0  # optional
 logger "Shutdown Raspberry"
-sudo shutdown -h now # in case WittyPi did not shutdown
+#sudo shutdown -h now # in case WittyPi did not shutdown
