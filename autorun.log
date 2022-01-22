@@ -18,3 +18,6 @@ See system logs and 'systemctl status bluetooth.service' for details.
 [2022-01-22 18:21:42,609][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
 [2022-01-22 18:21:47,838][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 [2022-01-22 18:41:04,204][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (boot.mount has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+Invalid device: No such device
