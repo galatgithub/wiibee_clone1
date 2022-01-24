@@ -19,7 +19,7 @@ BTRLADDR="85:58:0E:16:73:EF"
 
 #sleep 12 # FIXME "wait" for dhcpd timeout
 # if BT failed: sudo systemctl status hciuart.service
-sudo hciconfig hci0 || hciattach /dev/serial1 bcm43xx 921600 noflow -
+hciconfig hci0 || hciattach /dev/serial1 bcm43xx 921600 noflow -
 # try /dev/ttyAMA0 or /dev/ttyS0 ?
 # try to install raspberrypi-sys-mods
 # try apt-get install --reinstall pi-bluetooth
@@ -72,8 +72,8 @@ logger "Simulate press red sync button on the Wii Board"
 nb_wiiboard=4
 nb_counted=0
 try=0
-until [ $nb_counted -eq $nb_wiiboard -o $try -eq 2 ]; do
-    ((try++))
+until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
+    try=$((try+1))
     results=$(hcitool -i hci0 scan | grep "JDY-30") 
     sleep 1
     nb_counted=$(echo $results | grep -o "JDY-30" | wc -l)

@@ -65,6 +65,11 @@ wiiboards = [getwb(address) for address in sys.argv[1:]]
 # first connect then listen all balance, try to avoid connection refused error
 [wb.thread.start() for wb in wiiboards if wb]
 
+# xrange > range in python3
+def xrange(x):
+
+    return iter(range(x))
+
 for i in xrange(10):
     time.sleep(2)
     print("%.3f %.2f %.2f "%(time.time(), cpu_temp(), wtp_temp()) +
