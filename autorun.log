@@ -63,3 +63,6 @@ Invalid device: No such device
 ./autorun.sh: ligne 136: /dev/rfcomm2: Aucun périphérique de ce type
 ./autorun.sh: ligne 136: /dev/rfcomm3: Aucun périphérique de ce type
 [2022-01-27 08:04:49,086][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-01-27 08:19:33,059][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-01-27 08:19:38,549][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-01-27 08:19:43,751][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
