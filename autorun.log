@@ -85,3 +85,5 @@ Invalid device: No such device
 Can't init device hci0: Operation not permitted (1)
 Job for hciuart.service failed because the control process exited with error code.
 See "systemctl status hciuart.service" and "journalctl -xe" for details.
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm3: No such device
