@@ -8,3 +8,6 @@ origin	github-verbose:galatgithub/wiibee_clone1 (push)
 origin	github-verbose@github.com:galatgithub/wiibee_clone1 (fetch)
 origin	github-verbose@github.com:galatgithub/wiibee_clone1 (push)
 origin	
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+[2022-01-31 16:37:24,228][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
