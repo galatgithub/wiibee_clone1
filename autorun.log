@@ -1,2 +1,4 @@
 
 [2022-01-31 15:12:09,984][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+Can't init device hci0: Operation not permitted (1)
+[2022-01-31 15:48:12,689][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
