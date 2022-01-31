@@ -3,3 +3,5 @@
 Can't init device hci0: Operation not permitted (1)
 [2022-01-31 15:48:12,689][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
 [2022-01-31 15:59:12,770][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+origin	github-verbose:galatgithub/wiibee_clone1 (fetch)
+origin	github-verbose:galatgithub/wiibee_clone1 (push)
