@@ -19,7 +19,7 @@ BTRLADDR="85:58:0E:16:73:EF"
 
 #sleep 12 # FIXME "wait" for dhcpd timeout
 # if BT failed: sudo systemctl status hciuart.service
-sudo hciconfig hci0 || hciattach /dev/serial1 bcm43xx 921600 noflow -
+hciconfig hci0 || hciattach /dev/serial1 bcm43xx 921600 noflow -
 # try /dev/ttyAMA0 or /dev/ttyS0 ?
 # try to install raspberrypi-sys-mods
 # try apt-get install --reinstall pi-bluetooth
@@ -72,7 +72,7 @@ logger "Simulate press red sync button on the Wii Board"
 nb_wiiboard=4
 nb_counted=0
 try=0
-until [ $nb_counted -eq $nb_wiiboard -o $try -eq 2 ]; do
+until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
     ((try++))
     results=$(hcitool -i hci0 scan | grep "JDY-30") 
     sleep 1
@@ -158,14 +158,14 @@ git commit wiibee*.js -m"[data] $(date -Is)"
 git commit autorun.log -m"[data] $(date -Is)"
 #git commit schedule.log -m"[data] $(date -Is)"
 #git push origin master 2>A || cat A | mail -s "GIT a merdé sur Wiibee" guilhem.a@free.fr
-git push origin master 2>A || cat A
+git push origin master 2>A
 
 echo $WIIBEE_SHUTDOWN
 
 #[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
 logger "Shutdown WittyPi"
 # shutdown Raspberry Pi by pulling down GPIO-4
-#gpio -g mode 4 out
-#gpio -g write 4 0  # optional
+gpio -g mode 4 out
+gpio -g write 4 0  # optional
 logger "Shutdown Raspberry"
-#sudo shutdown -h now # in case WittyPi did not shutdown
+shutdown -h now # in case WittyPi did not shutdown
