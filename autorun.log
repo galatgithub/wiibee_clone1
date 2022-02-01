@@ -16,3 +16,306 @@ origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+hci0:	Type: Primary  Bus: UART
+	BD Address: B8:27:EB:43:DB:7E  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING PSCAN 
+	RX bytes:1489 acl:0 sco:0 events:91 errors:0
+	TX bytes:2549 acl:0 sco:0 commands:91 errors:0
+
+failed to bring up HCI, rebooting
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+hci0:	Type: Primary  Bus: UART
+	BD Address: B8:27:EB:43:DB:7E  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING PSCAN 
+	RX bytes:1489 acl:0 sco:0 events:91 errors:0
+	TX bytes:2549 acl:0 sco:0 commands:91 errors:0
+
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+Can't init device hci0: Operation not permitted (1)
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+failed to bring up HCI, rebooting
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
