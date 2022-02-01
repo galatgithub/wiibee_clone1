@@ -319,3 +319,20 @@ origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+Can't init device hci0: Operation not permitted (1)
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm3: No such device
+[2022-02-01 12:11:53,828][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
