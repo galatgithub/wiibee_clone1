@@ -1,10 +1,7 @@
 
-origin	ssh://github.com/galatgithub/wiibee_clone1.git (fetch)
-origin	ssh://github.com/galatgithub/wiibee_clone1.git (push)
-origin	git://github.com/galatgithub/wiibee_clone1.git (fetch)
-origin	git://github.com/galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
 origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
-[2022-02-01 16:19:19,409][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
