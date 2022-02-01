@@ -154,18 +154,29 @@ python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
 
-git commit wiibee*.js -m"[data] $(date -Is)"
-git commit autorun.log -m"[data] $(date -Is)"
-#git commit schedule.log -m"[data] $(date -Is)"
-#git push origin master 2>A || cat A | mail -s "GIT a merdé sur Wiibee" guilhem.a@free.fr
-git push origin master 2>A
+### git to github ##########################"
 
-echo $WIIBEE_SHUTDOWN
+######## old
+#git commit wiibee*.js -m"[data] $(date -Is)"
+#git commit autorun.log -m"[data] $(date -Is)"
+##git commit schedule.log -m"[data] $(date -Is)"
+##git push origin master 2>A || cat A | mail -s "GIT a merdé sur Wiibee" guilhem.a@free.fr
+#git push origin master 2>A
+########
 
-#[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
-logger "Shutdown WittyPi"
-# shutdown Raspberry Pi by pulling down GPIO-4
-gpio -g mode 4 out
-gpio -g write 4 0  # optional
-logger "Shutdown Raspberry"
-shutdown -h now # in case WittyPi did not shutdown
+GIT=`which git`
+REPO_DIR=/mnt/bee1/wiibee/
+cd ${REPO_DIR}
+${GIT} commit wiibee*.js autorun.log -m "[data] $(date -Is)"
+${GIT} push origin master &>A
+#${GIT} push git@github.com:galatgithub/wiibee_clone1.git master 2>A
+
+#echo $WIIBEE_SHUTDOWN
+
+##[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
+#logger "Shutdown WittyPi"
+## shutdown Raspberry Pi by pulling down GPIO-4
+#gpio -g mode 4 out
+#gpio -g write 4 0  # optional
+#logger "Shutdown Raspberry"
+#shutdown -h now # in case WittyPi did not shutdown
