@@ -16,3 +16,6 @@ origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+/mnt/bee1/wiibee/autorun.sh: line 85: [: missing `]'
+[2022-02-02 11:01:06,415][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 11:01:11,611][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
