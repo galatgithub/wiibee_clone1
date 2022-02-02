@@ -5,3 +5,7 @@ Failed to restart bluetooth.service: Transaction for bluetooth.service/restart i
 See system logs and 'systemctl status bluetooth.service' for details.
 origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
 origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
+origin	git@github.com:galatgithub/wiibee_clone1.git (fetch)
+origin	git@github.com:galatgithub/wiibee_clone1.git (push)
