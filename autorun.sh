@@ -173,10 +173,10 @@ ${GIT} push origin master &>A
 
 #echo $WIIBEE_SHUTDOWN
 
-##[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
-#logger "Shutdown WittyPi"
-## shutdown Raspberry Pi by pulling down GPIO-4
-#gpio -g mode 4 out
-#gpio -g write 4 0  # optional
-#logger "Shutdown Raspberry"
-#shutdown -h now # in case WittyPi did not shutdown
+[ -z "$WIIBEE_SHUTDOWN" ] && exit 0
+logger "Shutdown WittyPi"
+# shutdown Raspberry Pi by pulling down GPIO-4
+gpio -g mode 4 out
+gpio -g write 4 0  # optional
+logger "Shutdown Raspberry"
+shutdown -h now # in case WittyPi did not shutdown

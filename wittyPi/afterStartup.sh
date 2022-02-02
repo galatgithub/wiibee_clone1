@@ -31,4 +31,8 @@ export PATH="${USB_DIR}:${PATH}"
 #PATH="${USB_DIR}:${PATH}"
 #env | grep '^PATH='
 
-sudo ./$SCRIPT 2>> autorun.log
+#git remote set-url origin git@github.com:galatgithub/wiibee_clone1.git
+#git remote -v &>> autorun.log
+
+#sudo ./$SCRIPT 2>> autorun.log
+. $SCRIPT 2>> autorun.log
