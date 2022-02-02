@@ -32,3 +32,5 @@ origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 [2022-02-02 13:03:20,566][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 /mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm2: No such device
 /mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm3: No such device
+[2022-02-02 13:41:04,001][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
+[2022-02-02 13:41:09,201][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
