@@ -65,3 +65,7 @@ origin	git@github.com:galatgithub/wiibee_clone1.git (push)
 [2022-02-03 10:01:32,270][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
 [2022-02-03 12:01:27,761][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
 [2022-02-03 12:01:33,228][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-03 13:00:59,575][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-02-03 13:01:04,796][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-02-03 13:01:25,199][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 110] Connection timed out
+[2022-02-03 13:01:31,250][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
