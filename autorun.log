@@ -183,3 +183,4 @@ bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
 [2022-02-04 10:44:59,648][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 113] No route to host
 [2022-02-04 10:44:59,649][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 113] No route to host
 [2022-02-04 10:44:59,651][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 113] No route to host
+[2022-02-04 11:23:53,331][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
