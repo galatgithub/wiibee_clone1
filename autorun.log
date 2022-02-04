@@ -171,3 +171,4 @@ bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
     data = self.receivesocket.recv(25)
   File "<string>", line 5, in recv
 bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
+/mnt/bee1/wiibee/autorun.sh: line 141: /dev/rfcomm0: No such device
