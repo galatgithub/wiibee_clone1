@@ -290,3 +290,4 @@ bluetooth.btcommon.BluetoothError: [Errno 103] Software caused connection abort
 [2022-02-06 06:01:28,582][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
 [2022-02-06 06:01:33,719][wiiboard][ERROR] Could not connect to 00:1E:35:FD:11:FC : [Errno 112] Host is down
 [2022-02-06 06:01:39,221][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-02-06 06:41:29,247][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
