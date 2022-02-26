@@ -296,3 +296,5 @@ Error: can't use storage command in MessageContent with interface 0; interface c
 
 Error: can't use storage command in MessageContent with interface 0; interface class is 2, expected 8. Abort
 
+Cannot find device "eth1"
+Cannot find device "eth1"
