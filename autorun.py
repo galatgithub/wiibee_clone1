@@ -73,10 +73,17 @@ def xrange(x):
 for i in xrange(10):
     time.sleep(2)
     print("%.3f %.2f %.2f "%(time.time(), cpu_temp(), wtp_temp()) +
-          " ".join(["%.2f"%(wb.average() if wb else 0) for wb in wiiboards]))
-    battery_levels = " ".join(["%.2f"%(wb.battery if wb else 0) for wb in wiiboards])
-    
+          " ".join(["%.2f" % (wb.average() if wb else 0) for wb in wiiboards]))
+    battery_levels = " ".join(["%.2f" % (wb.battery if wb else 0) for wb in wiiboards])
+    wb_temperatures = " ".join(["%.2f" % (wb.temperature if wb else 0) for wb in wiiboards]) # update
+
+# how to add wb.temperature for 1 or all wiiboards ?
+
 with open("wiibee_battery.txt", "a+") as fp:
     fp.write(str(time.time()) + " " + battery_levels + "\n")
 
+with open("wb_temperatures.txt", "a+") as fp: # update
+    fp.write(str(time.time()) + " " + wb_temperatures + "\n") # update
+
 [wb.close() for wb in wiiboards if wb]
+

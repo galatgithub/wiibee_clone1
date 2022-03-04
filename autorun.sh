@@ -2,20 +2,24 @@
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
 # BTADDR="00:22:4c:6e:12:6c"
-BTADDR="00:26:59:69:F2:25 00:23:31:84:7E:4C 00:1E:35:FD:11:FC 00:1E:35:FF:B0:04"
+#BTADDR="00:23:31:84:7E:4C 00:1E:35:FF:B0:04"
+BTADDR="00:1E:35:FF:B0:04"
 # Bluetooth relays addresses
 BTRLADDR="85:58:0E:16:73:EF"
 
 # Connexion cle 3G
-## fix Huawei E3135 recognized as CDROM [sr0]
-#lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
-## run DHCP client to get an IP
-#ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
-#sleep 10
-#lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
-## run DHCP client to get an IP
-#ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
-#sleep 10
+# fix Huawei E3531 recognized as CDROM [sr0]
+lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
+# run DHCP client to get an IP
+
+# Affiche des informations sur toutes les interfaces réseau actives ou inactives sur le serveur | cherche ligne suivant ligne avec eth1 | cherche mot inet || (si different de 0)  renouvèle l'adresse IP de la carte réseau eth1  
+ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
+sleep 10
+
+lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
+# run DHCP client to get an IP
+ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
+sleep 10
 
 #sleep 12 # FIXME "wait" for dhcpd timeout
 # if BT failed: sudo systemctl status hciuart.service
@@ -32,7 +36,7 @@ until hciconfig hci0 up; do
     systemctl restart hciuart
     if [ $(($(date +%s) - d0)) -gt 20 ]; then
         echo "failed to bring up HCI, rebooting"
-        /sbin/reboot
+#        /sbin/reboot
     fi
     sleep 1
 done
@@ -69,7 +73,7 @@ logger "Simulate press red sync button on the Wii Board"
 #sleep 20
 #sudo systemctl restart bluetooth
 
-nb_wiiboard=4
+nb_wiiboard=$(echo "$BTADDR" | wc -w)
 nb_counted=0
 try=0
 until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
@@ -80,6 +84,11 @@ until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
     echo $nb_counted
     [ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
 done
+
+
+if [ $try -eq 10 ]; then
+    echo "Problems : 10 attempts to restart bluetooth without response from all wiiboards, check wiiboards alimentation" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+fi
 
 read -a strarr <<< "$results"
 
@@ -151,6 +160,13 @@ python3 autorun.py $BTADDR >> wiibee.txt
 logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
+
+
+# Correction si fichiers .txt contiennent caractères non numeriques
+#grep -E '[+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?)' wiibee_1board.txt > wiibee_corrected.txt 
+# echo "Problem : corrupted characters in .txt files. Check commit files and wiiboards" | mail -s "Wiibee_clone1 : problem with txt files" guilhem.a@free.fr
+
+
 
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
 
