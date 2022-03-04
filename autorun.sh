@@ -2,8 +2,8 @@
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
 # BTADDR="00:22:4c:6e:12:6c"
-#BTADDR="00:23:31:84:7E:4C 00:1E:35:FF:B0:04"
-BTADDR="00:1E:35:FF:B0:04"
+BTADDR="00:23:31:84:7E:4C 00:1E:35:FF:B0:04"
+#BTADDR="00:1E:35:FF:B0:04"
 # Bluetooth relays addresses
 BTRLADDR="85:58:0E:16:73:EF"
 
@@ -161,13 +161,6 @@ logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
-
-# Correction si fichiers .txt contiennent caractères non numeriques
-#grep -E '[+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?) [+-]?([0-9]+(\.[0-9]+)?)' wiibee_1board.txt > wiibee_corrected.txt 
-# echo "Problem : corrupted characters in .txt files. Check commit files and wiiboards" | mail -s "Wiibee_clone1 : problem with txt files" guilhem.a@free.fr
-
-
-
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
 
 ### git to github ##########################"
@@ -183,7 +176,7 @@ python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 GIT=`which git`
 REPO_DIR=/mnt/bee1/wiibee/
 cd ${REPO_DIR}
-${GIT} commit wiibee*.js autorun.log -m "[data] $(date -Is)"
+${GIT} commit wiibee*.js wb_temperatures.txt autorun.log -m "[data] $(date -Is)"
 ${GIT} push origin master &>A
 #${GIT} push git@github.com:galatgithub/wiibee_clone1.git master 2>A
 
