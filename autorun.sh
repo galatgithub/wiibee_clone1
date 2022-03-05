@@ -163,16 +163,18 @@ python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
 
 # send alert if one of the wb < 4.5 volts
-flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
+#flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
+flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i>4.5) } }' wiibee_battery.txt))
 arr=($BTADDR)
+j=0
 for i in ${flag_lowbat[@]}; do
-    if [ ${flag_lowbat[$i]} -gt 0 ]
+    if [ $i -gt 0 ]
     then 
-       echo "Wiiboard ${arr[$i]} has low battery" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
-       #echo ${arr[$i]}
+#       echo "Wiiboard ${arr[$j]} has low battery" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+       echo "Wiiboard ${arr[$j]} is OK" | mail -s "Wiibee_clone1 : No Problem with wiiboard" guilhem.a@free.fr
     fi
+    ((j++))
 done
-
 
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
 
