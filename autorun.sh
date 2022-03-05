@@ -161,6 +161,19 @@ logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
+
+# send alert if one of the wb < 4.5 volts
+flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
+arr=($BTADDR)
+for i in ${flag_lowbat[@]}; do
+    if [ ${flag_lowbat[$i]} -gt 0 ]
+    then 
+       echo "Wiiboard ${arr[$i]} has low battery" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+       #echo ${arr[$i]}
+    fi
+done
+
+
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
 
 ### git to github ##########################"
