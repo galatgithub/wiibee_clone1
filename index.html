@@ -25,9 +25,9 @@ function getColors(num, sat, val) {
     }
     return colors;
 }
-var labels = ["Date", "T°CPU", "T", "Vert-Jaune", "Bleu", "Noir", "Rouge","Mauve"];
+var labels = ["Date", "T°CPU", "T", "Noir", "Rouge", "Mauve", "Bleu-V/J"];
 // must calibrate each balance and setup the offsets accordingly
-var offset = [     0,       0,   0, -2.2,  4.6,  3.0,  3.1, 1.1];
+var offset = [     0,       0,   0,   -3.0,     3.1,     1.1,       0.14];
 //  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
 var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
 var ndata  = 0;
@@ -56,7 +56,7 @@ function gr(index) {
         colors: [colors[index-1]],
         valueRange: range,
         <!-- rajout barres de zoom -->
-        showRangeSelector: true,
+        <!--showRangeSelector: true,-->
          
         axes: {
             x: {
