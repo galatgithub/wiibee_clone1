@@ -77,8 +77,6 @@ for i in xrange(10):
     battery_levels = " ".join(["%.2f" % (wb.battery if wb else 0) for wb in wiiboards])
     wb_temperatures = " ".join(["%.2f" % (wb.temperature if wb else 0) for wb in wiiboards]) # update
 
-# how to add wb.temperature for 1 or all wiiboards ?
-
 with open("wiibee_battery.txt", "a+") as fp:
     fp.write(str(time.time()) + " " + battery_levels + "\n")
 
