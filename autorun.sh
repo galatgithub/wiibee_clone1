@@ -1,11 +1,10 @@
 #! /bin/bash
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
-# BTADDR="00:22:4c:6e:12:6c"
-BTADDR="00:23:31:84:7E:4C 00:1E:35:FF:B0:04"
-#BTADDR="00:1E:35:FF:B0:04"
+# Wiiboards="3:Noir 4:Rouge 5:Mauve 6:Bleu-Vert/Jaune"
+BTADDR="00:1E:35:FF:B0:04 00:23:31:84:7E:4C 00:26:59:69:F2:25 00:24:44:5F:3F:4E"
 # Bluetooth relays addresses
-BTRLADDR="85:58:0E:16:73:EF"
+#BTRLADDR="85:58:0E:16:73:EF"
 
 # Connexion cle 3G
 # fix Huawei E3531 recognized as CDROM [sr0]
