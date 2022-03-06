@@ -1,1 +1,3 @@
 
+RTNETLINK answers: File exists
+[2022-03-06 08:33:23,423][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
