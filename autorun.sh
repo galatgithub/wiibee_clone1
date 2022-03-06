@@ -162,7 +162,7 @@ python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
 
 # send alert if one of the wb < 4.5 volts
-flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
+flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5 && $i>0) } }' wiibee_battery.txt))
 arr=($BTADDR)
 j=0
 for i in ${flag_lowbat[@]}; do
