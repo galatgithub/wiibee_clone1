@@ -24,3 +24,4 @@ mail: cannot send message: Process exited with a non-zero status
 [2022-03-07 06:09:59,842][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 107] Transport endpoint is not connected
 [2022-03-07 06:41:35,260][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
 mail: cannot send message: Process exited with a non-zero status
+[2022-03-18 20:48:16,372][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
