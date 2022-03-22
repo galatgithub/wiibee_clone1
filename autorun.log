@@ -362,3 +362,17 @@ RTNETLINK answers: File exists
 mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
+RTNETLINK answers: File exists
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm1: No such device
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm2: No such device
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm3: No such device
+[2022-03-22 18:02:38,413][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-03-22 18:02:43,614][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-03-22 18:02:48,867][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
