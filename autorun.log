@@ -1127,3 +1127,14 @@ mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm0: No such device
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm3: No such device
+[2022-03-28 09:01:16,772][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-03-28 09:01:22,258][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
+[2022-03-28 09:01:27,456][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
