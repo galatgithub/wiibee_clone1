@@ -10,11 +10,9 @@ BTRLADDR="85:58:0E:16:63:3A 85:58:0E:16:64:71 85:58:0E:16:73:EF 85:58:0E:16:52:B
 # fix Huawei E3531 recognized as CDROM [sr0]
 lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
 # run DHCP client to get an IP
-
 # Affiche des informations sur toutes les interfaces réseau actives ou inactives sur le serveur | cherche ligne suivant ligne avec eth1 | cherche mot inet || (si different de 0)  renouvèle l'adresse IP de la carte réseau eth1  
 ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
 sleep 10
-
 lsusb | grep 12d1:1f01 && sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
 # run DHCP client to get an IP
 ifconfig -a | grep eth1 -A1 | grep inet || sudo dhclient eth1
@@ -35,7 +33,7 @@ until hciconfig hci0 up; do
     systemctl restart hciuart
     if [ $(($(date +%s) - d0)) -gt 20 ]; then
         echo "failed to bring up HCI, rebooting"
-#        /sbin/reboot
+        /sbin/reboot
     fi
     sleep 1
 done
@@ -72,45 +70,49 @@ logger "Simulate press red sync button on the Wii Board"
 #sleep 20
 #sudo systemctl restart bluetooth
 
-#nb_wiiboard=$(echo "$BTADDR" | wc -w)
-#nb_counted=0
-#try=0
-#until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
-    #((try++))
-    #results=$(hcitool -i hci0 scan | grep "JDY-30") 
-    #sleep 1
-    #nb_counted=$(echo $results | grep -o "JDY-30" | wc -l)
-    #echo $nb_counted
-    #[ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
-#done
+nb_wiiboard=$(echo "$BTADDR" | wc -w)
+echo Expected wiiboards $nb_wiiboard
+nb_counted=0
+try=0
+until [ $nb_counted -eq $nb_wiiboard -o $try -eq 10 ]; do
+    ((try++))
+    echo Search JDY devices...
+#    results=$(hcitool -i hci0 scan | grep -E "JDY*")
+    results=$(hcitool scan | grep -E "JDY*") 
+#    sleep 10
+    echo JDY found $results
+    nb_counted=$(echo $results | grep -oE "JDY*" | wc -l)
+    echo counted $nb_counted
+    [ $nb_counted -ne $nb_wiiboard ] && { echo "restart BT"; sudo systemctl restart bluetooth; sleep 10; }
+done
 
 
-#if [ $try -eq 10 ]; then
-    #echo "Problems : 10 attempts to restart bluetooth without response from all wiiboards, check wiiboards alimentation" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
-#fi
+if [ $try -eq 10 ]; then
+    echo "Problems : 10 attempts to restart bluetooth without response from all wiiboards, check wiiboards alimentation" #| mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+fi
 
-#read -a strarr <<< "$results"
+read -a strarr <<< "$results"
 
-#j=1
-#for i in $results; do
-	#if [ $((j++%2)) -eq 0 ]
-	#then
-	  #NAME+=("$i")
-	#else
-	  #MAC+=("$i")
-	#fi
-#done
+j=1
+for i in $results; do
+	if [ $((j++%2)) -eq 0 ]
+	then
+	  NAME+=("$i")
+	else
+	  MAC+=("$i")
+	fi
+done
 
-#BTRLADDR=""
-#j=0
-#for i in "${NAME[@]}"; do
-	#if [[ "$i" == *JDY-30* ]]
-	#then
-	  #BTRLADDR="$BTRLADDR ${MAC[$j]}"
-	#fi
-	#((j++))
-#done
-#BTRLADDR=${BTRLADDR:1}
+BTRLADDR=""
+j=0
+for i in "${NAME[@]}"; do
+	if [[ "$i" == *JDY* ]]
+	then
+	  BTRLADDR="$BTRLADDR ${MAC[$j]}"
+	fi
+	((j++))
+done
+BTRLADDR=${BTRLADDR:1}
 
 echo "Relais detectes=${BTRLADDR[@]}"
 
@@ -146,11 +148,6 @@ done
 sleep 5
 kill $pidbt 2>/dev/null
 
-((N--))
-for i in `seq 0 $N`; do
-    sudo rfcomm release $i
-done
-
 #########################################################################
 
 logger "Start listening to the mass measurements"
@@ -160,17 +157,28 @@ logger "Stopped listening"
 python txt2js.py wiibee < wiibee.txt > wiibee.js
 python txt2js.py wiibee_battery < wiibee_battery.txt > wiibee_battery.js
 
+## send alert if one of the wb < 4.5 volts
+#flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
+#arr=($BTADDR)
+#j=0
+#for i in ${flag_lowbat[@]}; do
+    #if [ $i -gt 0 ]
+    #then
+       #echo "Wiiboard ${arr[$j]} has low battery" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
+    #fi
+    #((j++))
+#done
 
-# send alert if one of the wb < 4.5 volts
-flag_lowbat=($(awk -F " " 'END { for (i=2;i<=NF; i++) { print ($i<4.5) } }' wiibee_battery.txt))
-arr=($BTADDR)
-j=0
-for i in ${flag_lowbat[@]}; do
-    if [ $i -gt 0 ]
-    then
-       echo "Wiiboard ${arr[$j]} has low battery" | mail -s "Wiibee_clone1 : Problem with wiiboard" guilhem.a@free.fr
-    fi
-    ((j++))
+for i in $LOGFILE; do
+    echo "close $i"
+    echo -e $close > "$i" & pidbt=$! &
+done
+sleep 10
+kill $pidbt 2>/dev/null
+
+((N--))
+for i in `seq 0 $N`; do
+    sudo rfcomm release $i
 done
 
 #cp ~/wittypi/schedule.log /mnt/bee1/wiibee/
