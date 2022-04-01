@@ -1739,3 +1739,13 @@ RTNETLINK answers: File exists
 [2022-04-01 11:01:28,269][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
 mail: cannot send message: Process exited with a non-zero status
 mail: cannot send message: Process exited with a non-zero status
+/mnt/bee1/wiibee/autorun.sh: line 144: /dev/rfcomm3: No such device
+/mnt/bee1/wiibee/autorun.sh: line 136: /dev/rfcomm3: No such device
+[2022-04-01 13:01:17,288][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-04-01 13:01:22,502][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 112] Host is down
+[2022-04-01 13:01:22,749][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 111] Connection refused
+[2022-04-01 13:01:27,964][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
+mail: cannot send message: Process exited with a non-zero status
