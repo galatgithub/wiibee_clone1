@@ -72,7 +72,9 @@ def xrange(x):
 
 for i in xrange(10):
     time.sleep(2)
-    print("%.3f %.2f %.2f "%(time.time(), cpu_temp(), wtp_temp()) +
+#    print("%.3f %.2f %.2f "%(time.time(), cpu_temp(), wtp_temp()) +
+#          " ".join(["%.2f" % (wb.average() if wb else 0) for wb in wiiboards]))
+    print("%.3f %.2f "%(time.time(), wtp_temp()) +
           " ".join(["%.2f" % (wb.average() if wb else 0) for wb in wiiboards]))
     battery_levels = " ".join(["%.2f" % (wb.battery if wb else 0) for wb in wiiboards])
     wb_temperatures = " ".join(["%.2f" % (wb.temperature if wb else 0) for wb in wiiboards]) # update
