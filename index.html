@@ -25,20 +25,11 @@ function getColors(num, sat, val) {
     }
     return colors;
 }
-// var labels = ["Date", "T°CPU", "T", "3", "4", "5", "6"];
-// var labels = ["Date", "T°CPU", "T", "Noir", "Rouge", "Mauve", "Bleu-V/J"];
-// var labels = ["Date", "T°CPU", "T", "Bal. 3/Ruche 2", "Bal. 4/Ruche 1", "Bal. 5/Ruche 3", "Bal. 6/Ruche 4"];
-var labels = ["Date","T°CPU", "T", "Bal. 3/Ruche 2", "Bal. 4/Ruche 1", "Bal. 5/Ruche 3"];
-
+var labels = ["Date", "T°CPU", "T", "Noir", "Rouge", "Mauve", "Bleu-V/J"];
 // must calibrate each balance and setup the offsets accordingly
-//var offset = [     0,   0,  0,           -3.0,              3.1,              1.1,              0.14];
-var offset = [     0,   0,   0,             -3.0,              3.1,              1.1];
-
+var offset = [     0,       0,   0,   -3.0,     3.1,     1.1,       0.14];
 //  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
-//var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
-//  labels = ["Date", "T°CPU", "T", "M1", "M2", "M3", "M4"];
-var multi  = [    [],   [],   [],               [],               [],              []];
-
+var multi  = [    [],      [],  [],   [],    [],  [],   [],  []];
 var ndata  = 0;
 var range  = [15, 45];
 wiibee.forEach(function(elt1, index1, arr1) {
