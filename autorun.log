@@ -53,3 +53,5 @@ RTNETLINK answers: File exists
 [2022-04-04 21:01:28,463][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 RTNETLINK answers: File exists
 [2022-04-04 23:01:32,335][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2022-04-05 01:02:35,695][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
