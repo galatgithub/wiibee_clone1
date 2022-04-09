@@ -142,3 +142,18 @@ RTNETLINK answers: File exists
 [2022-04-09 07:01:37,211][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 [2022-04-09 09:01:19,614][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 [2022-04-09 11:01:18,770][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+RTNETLINK answers: File exists
+Inquiry failed: Connection timed out
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+Device is not available: No such device
+[2022-04-09 13:04:35,261][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 113] No route to host
+[2022-04-09 13:04:35,263][wiiboard][ERROR] Could not connect to 00:23:31:84:7E:4C : [Errno 113] No route to host
+[2022-04-09 13:04:35,263][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 113] No route to host
+[2022-04-09 13:04:35,264][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 113] No route to host
