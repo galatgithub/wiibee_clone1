@@ -191,3 +191,5 @@ Device is not available: No such device
 [2022-04-10 11:03:24,874][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 113] No route to host
 RTNETLINK answers: File exists
 [2022-04-10 13:01:24,642][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2022-04-10 15:01:49,228][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
