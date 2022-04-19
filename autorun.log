@@ -392,3 +392,432 @@ Failed to talk to init daemon.
 RTNETLINK answers: File exists
 [2022-04-18 13:03:58,451][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
 [2022-04-18 15:01:48,779][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service canceled.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysctl.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (local-fs.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (swap.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-tmpfiles-setup-dev.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (local-fs-pre.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-reboot.service has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (system-systemd\x2dfsck.slice has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (boot.mount has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transport endpoint is not connected
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-fsck@dev-disk-by\x2dpartuuid-c9aa9fc3\x2d01.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-timesyncd.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (umount.target has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysctl.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (local-fs-pre.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (reboot.target has 'start' job queued, but 'stop' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Transaction for hciuart.service/restart is destructive (systemd-sysusers.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status hciuart.service' for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open initctl fifo: No such device or address
+Failed to talk to init daemon.
+RTNETLINK answers: File exists
+Can't get device info: No such device
+RTNETLINK answers: File exists
+Can't get device info: No such device
+Initialization timed out.
+Can't get device info: No such device
+RTNETLINK answers: File exists
+[2022-04-19 01:01:51,093][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
