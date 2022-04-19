@@ -821,3 +821,5 @@ Initialization timed out.
 Can't get device info: No such device
 RTNETLINK answers: File exists
 [2022-04-19 01:01:51,093][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2022-04-19 03:01:21,319][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
