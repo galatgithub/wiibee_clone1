@@ -1556,3 +1556,5 @@ Can't get device info: No such device
 Initialization timed out.
 Can't get device info: No such device
 [2022-04-21 05:01:25,115][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+[2022-04-21 07:01:42,222][wiiboard][ERROR] Could not connect to 00:1E:35:FF:B0:04 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 175: /dev/rfcomm0: No such device
