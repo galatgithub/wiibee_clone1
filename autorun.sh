@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
-# Wiiboards="3:Noir 4:Rouge 5:Mauve 6:Bleu-Vert/Jaune"
-BTADDR="00:1E:35:FF:B0:04 00:23:31:84:7E:4C 00:26:59:69:F2:25 00:24:44:5F:3F:4E"
+# Wiiboards="10:sans couleur 4:Rouge 5:Mauve 6:Bleu-Vert/Jaune"
+BTADDR="00:25:A0:4A:28:22 00:23:31:84:7E:4C 00:26:59:69:F2:25 00:24:44:5F:3F:4E"
 # Bluetooth relays addresses
-BTRLADDR="85:58:0E:16:63:3A 85:58:0E:16:64:71 85:58:0E:16:73:EF 85:58:0E:16:52:B7"
+BTRLADDR="8F:7F:0B:01:65:00 85:58:0E:16:64:71 85:58:0E:16:73:EF 85:58:0E:16:52:B7"
 
 # Connexion cle 3G
 # fix Huawei E3531 recognized as CDROM [sr0]
@@ -70,8 +70,8 @@ logger "Simulate press red sync button on the Wii Board"
 #sleep 20
 #sudo systemctl restart bluetooth
 
-#nb_wiiboard=$(echo "$BTADDR" | wc -w)
-nb_wiiboard=3
+nb_wiiboard=$(echo "$BTADDR" | wc -w)
+#nb_wiiboard=3
 echo Expected wiiboards $nb_wiiboard
 nb_counted=0
 try=0
