@@ -23,3 +23,6 @@ RTNETLINK answers: File exists
 [2022-04-24 21:05:36,050][wiiboard][ERROR] Could not connect to 00:24:44:5F:3F:4E : [Errno 112] Host is down
 RTNETLINK answers: File exists
 [2022-04-24 23:05:08,630][wiiboard][ERROR] Could not connect to 00:25:A0:4A:28:22 : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2022-04-25 01:05:14,650][wiiboard][ERROR] Could not connect to 00:25:A0:4A:28:22 : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: line 175: /dev/rfcomm2: No such device
