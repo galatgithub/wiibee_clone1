@@ -15,3 +15,4 @@ RTNETLINK answers: File exists
 /mnt/bee1/wiibee/autorun.sh: line 175: /dev/rfcomm3: No such device
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
+[2022-07-28 09:01:24,863][wiiboard][ERROR] Could not connect to 00:26:59:69:F2:25 : [Errno 112] Host is down
