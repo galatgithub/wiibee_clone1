@@ -2,9 +2,13 @@
 
 # Bluetooth MAC, use: hcitool scan, or: python wiiboard.py
 # Wiiboards="10:sans couleur 4:Rouge 5:Mauve 6:Bleu-Vert/Jaune"
-BTADDR="00:25:A0:4A:28:22 00:23:31:84:7E:4C 00:26:59:69:F2:25 00:24:44:5F:3F:4E"
+# BTADDR="00:25:A0:4A:28:22 00:23:31:84:7E:4C 00:26:59:69:F2:25 00:24:44:5F:3F:4E"
 # Bluetooth relays addresses
-BTRLADDR="8F:7F:0B:01:65:00 85:58:0E:16:64:71 85:58:0E:16:73:EF 85:58:0E:16:52:B7"
+# BTRLADDR="8F:7F:0B:01:65:00 85:58:0E:16:64:71 85:58:0E:16:73:EF 85:58:0E:16:52:B7"
+
+# test
+BTADDR="CC:9E:00:B1:F5:2A"
+BTRLADDR="4F:F8:09:01:65:00"
 
 # Connexion cle 3G
 # fix Huawei E3531 recognized as CDROM [sr0]
@@ -182,7 +186,7 @@ for i in `seq 0 $N`; do
     sudo rfcomm release $i
 done
 
-cp /home/pi/wittypi/schedule.log /mnt/bee1/wiibee/
+cp /home/pi/wittyPi/schedule.log /mnt/bee1/wiibee/
 
 ### git to github ##########################"
 
