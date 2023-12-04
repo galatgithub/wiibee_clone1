@@ -35,3 +35,24 @@ RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
+Can't init device hci0: Connection timed out (110)
+Job for hciuart.service failed because the control process exited with error code.
+See "systemctl status hciuart.service" and "journalctl -xe" for details.
+Can't get device info: No such device
+Failed to restart hciuart.service: Noeud final de transport n'est pas connecté
+See system logs and 'systemctl status hciuart.service' for details.
+Failed to connect to bus: Connexion refusée
+Failed to open initctl fifo: Aucun périphérique ou adresse
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connexion refusée
+Failed to connect to bus: Connexion refusée
+Failed to open initctl fifo: Aucun périphérique ou adresse
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connexion refusée
+Failed to connect to bus: Connexion refusée
+Failed to open initctl fifo: Aucun périphérique ou adresse
+Failed to talk to init daemon.
+Can't get device info: No such device
+Failed to connect to bus: Connexion refusée
