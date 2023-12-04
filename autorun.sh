@@ -9,6 +9,10 @@
 # test
 BTADDR="CC:9E:00:B1:F5:2A"
 BTRLADDR="4F:F8:09:01:65:00"
+# switch off WIFI
+sudo modprobe -rv brcmfmac
+echo "WIFI switched-off"
+
 
 # Connexion cle 3G
 # fix Huawei E3531 recognized as CDROM [sr0]
@@ -204,6 +208,10 @@ cd ${REPO_DIR}
 ${GIT} commit wiibee*.js wb_temperatures.txt autorun.log -m "[data] $(date -Is)"
 ${GIT} push origin master &>A
 #${GIT} push git@github.com:galatgithub/wiibee_clone1.git master 2>A
+
+# switch on WiFi
+sudo modprobe brcmfmac
+echo "Wifi switched-on"
 
 #echo $WIIBEE_SHUTDOWN
 
