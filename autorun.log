@@ -56,3 +56,4 @@ Failed to open initctl fifo: Aucun périphérique ou adresse
 Failed to talk to init daemon.
 Can't get device info: No such device
 Failed to connect to bus: Connexion refusée
+RTNETLINK answers: File exists
