@@ -12,6 +12,10 @@ BTRLADDR="4F:F8:09:01:65:00"
 # switch off WIFI
 sudo modprobe -rv brcmfmac
 echo "WIFI switched-off"
+# Turn off HDMI output
+sudo /opt/vc/bin/tvservice -o
+# Turn it back on again
+#sudo /opt/vc/bin/tvservice -p
 
 
 # Connexion cle 3G
