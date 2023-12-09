@@ -229,3 +229,4 @@ RTNETLINK answers: File exists
 [2023-12-09 14:46:57,845][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
+sudo: /opt/vc/bin/tvservice : commande introuvable
