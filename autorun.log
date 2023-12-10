@@ -274,3 +274,4 @@ RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
+[2023-12-10 18:41:25,856][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
