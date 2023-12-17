@@ -438,3 +438,216 @@ RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
 RTNETLINK answers: File exists
+[2023-12-15 08:44:58,049][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 09:05:00,549][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 09:25:00,671][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-15 09:45:00,200][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-15 10:04:59,893][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-15 10:24:55,759][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 10:45:01,742][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+[2023-12-15 11:24:59,907][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-15 12:44:55,344][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-15 13:44:59,933][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-15 15:04:58,204][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 15:24:51,753][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 15:44:57,547][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 16:05:00,260][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+[2023-12-15 16:25:00,387][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-15 16:45:00,282][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-fsck@dev-disk-by\x2dpartuuid-c9aa9fc3\x2d01.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+[2023-12-15 17:44:53,783][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 18:04:52,940][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 18:25:02,462][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (system-systemd\x2dfsck.slice has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (cryptsetup.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+RTNETLINK answers: File exists
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-remount-fs.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+Device is not available: No such device
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (local-fs.target has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+[2023-12-15 21:04:39,419][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 21:24:44,264][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 21:44:46,624][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 22:04:38,648][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-15 22:24:51,141][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 22:44:38,604][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 23:04:39,593][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 23:24:42,643][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-15 23:44:40,697][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 00:04:52,507][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 00:24:51,655][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 00:44:43,073][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 01:04:40,471][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 01:24:47,460][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 01:44:40,281][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 02:04:59,168][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 02:25:01,610][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-16 02:44:41,385][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 03:04:46,531][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 03:24:39,596][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 03:44:44,730][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 04:04:48,147][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 04:24:45,279][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 04:44:44,899][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 05:05:00,200][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 05:25:00,645][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 05:44:44,960][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 06:24:51,089][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 06:44:44,708][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 07:04:39,295][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 07:44:39,582][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 08:04:56,743][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 08:24:52,513][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 08:44:38,228][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 09:04:40,456][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 09:24:39,354][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 09:44:45,205][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 10:04:38,692][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 10:24:39,445][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 10:44:40,366][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 11:04:56,892][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-16 11:44:39,456][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 12:04:40,727][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 12:24:38,530][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 12:44:44,311][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+Device is not available: No such device
+Failed to connect to bus: Connexion refusée
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-16 14:25:01,925][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-16 14:45:00,668][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-modules-load.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+RTNETLINK answers: File exists
+Failed to restart bluetooth.service: Transaction for bluetooth.service/restart is destructive (systemd-tmpfiles-setup.service has 'stop' job queued, but 'start' is included in transaction).
+See system logs and 'systemctl status bluetooth.service' for details.
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-16 16:45:00,196][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+[2023-12-16 19:25:01,467][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+[2023-12-16 19:45:00,814][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-16 20:45:00,371][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+[2023-12-16 21:25:03,249][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+[2023-12-16 21:45:02,092][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+[2023-12-16 22:04:59,847][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-16 22:24:41,492][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 22:44:39,324][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 23:04:40,341][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 23:24:42,200][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-16 23:44:39,805][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 00:04:39,204][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 00:24:43,769][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 00:44:49,931][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 01:04:48,058][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 01:24:40,164][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 01:44:42,165][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 02:04:48,017][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 02:24:41,690][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 02:44:47,195][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 03:04:45,538][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 03:24:45,392][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 03:44:39,750][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 04:04:45,590][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 04:24:49,875][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 04:45:01,071][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+[2023-12-17 05:04:46,144][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 05:24:38,956][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 05:45:00,452][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 06:04:40,405][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 06:24:45,347][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 06:44:48,562][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 07:04:47,319][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 07:24:39,810][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 07:44:49,412][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 08:04:46,804][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 08:24:38,922][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 08:44:45,599][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 09:05:00,910][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 09:24:54,580][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 09:44:57,913][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-17 10:24:54,102][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 10:45:00,005][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+[2023-12-17 11:44:59,473][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 12:04:53,421][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 12:24:56,466][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+RTNETLINK answers: File exists
+[2023-12-17 12:45:00,896][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+RTNETLINK answers: File exists
+[2023-12-17 13:05:02,533][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 113] No route to host
+[2023-12-17 13:24:52,424][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 13:44:52,304][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 14:04:56,604][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+[2023-12-17 14:25:00,729][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 107] Transport endpoint is not connected
+[2023-12-17 14:43:18,311][wiiboard][ERROR] Could not connect to CC:9E:00:B1:F5:2A : [Errno 112] Host is down
+/mnt/bee1/wiibee/autorun.sh: ligne 182: /dev/rfcomm0: Aucun périphérique de ce type
